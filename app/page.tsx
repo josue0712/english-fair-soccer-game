@@ -150,7 +150,7 @@ export default function WorldCupFair() {
         {/* Cabecera / Hero */}
         <div className="flex flex-col items-center text-center mb-10">
           <h1 className="text-3xl md:text-5xl font-black tracking-tight text-white uppercase">
-            WORLD CUP <span className="text-[#00e676]">CHALLENGE</span>
+            WORLD CUP <span className="text-[#00e676]">CHALLENGE 9C</span>
           </h1>
           <p className="text-zinc-500 text-sm mt-2 max-w-md font-medium">
             Record the final results by controlling your favorite teams in our integrated simulator.
