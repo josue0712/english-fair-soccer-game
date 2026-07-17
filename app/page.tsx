@@ -169,7 +169,7 @@ export default function WorldCupFair() {
           <div className="bg-[#1c1e22] border border-zinc-800 p-5 rounded-xl shadow-lg hover:border-zinc-700 transition duration-300 flex flex-col justify-between">
             <MatchSetupCard 
               teams={finalistTeams}
-              title="Gran Final"
+              title="World Cup Final"
               icon="🏆"
               onPlay={() => setActiveMatch({ team1: finalistTeams[0], team2: finalistTeams[1], type: 'final' })}
               winnerId={champion}
@@ -185,7 +185,7 @@ export default function WorldCupFair() {
           <div className="bg-[#1c1e22] border border-zinc-800 p-5 rounded-xl shadow-lg hover:border-zinc-700 transition duration-300 flex flex-col justify-between">
             <MatchSetupCard 
               teams={thirdPlaceTeams}
-              title="Tercer Puesto"
+              title="Third Place"
               icon="🥉"
               onPlay={() => setActiveMatch({ team1: thirdPlaceTeams[0], team2: thirdPlaceTeams[1], type: 'third' })}
               winnerId={thirdPlace}
