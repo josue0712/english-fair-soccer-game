@@ -50,7 +50,7 @@ function MatchProgressBar({
           <span className="text-white font-mono text-base font-black">{pct1}%</span>
         </div>
         <div className="text-zinc-600 font-bold text-[10px] uppercase tracking-widest bg-zinc-950 px-2.5 py-1 rounded-md border border-zinc-800/60">
-          {total === 0 ? 'Sin registros' : `${total} Votos`}
+          {total === 0 ? 'Without registration' : `${total} Votos`}
         </div>
         <div className="text-right">
           <span className="text-zinc-400 font-medium block text-[11px] uppercase tracking-wider">{team2.name}</span>
@@ -276,7 +276,7 @@ function MatchSetupCard({ teams, title, icon, onPlay, winnerId }: {
             : 'bg-zinc-800 hover:bg-zinc-700 text-white border border-zinc-700/80'
           }`}
       >
-        {winnerId ? `✔ Ganador: ${winner?.name} (Re-jugar)` : '🎮 Simular en el Campo'}
+        {winnerId ? `✔ Ganador: ${winner?.name} (Replay)` : '🎮 Simulate in the field'}
       </button>
     </div>
   );
