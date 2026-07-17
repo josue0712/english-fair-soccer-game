@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 // Configuración de metadatos con favicon súper minimalista: Fondo verde con letras "WC" en blanco
 export const metadata: Metadata = {
   title: "World Cup Challenge",
-  description: "Created by Roberto Josué",
+  description: "Creado por Roberto Josué",
   icons: {
     icon: `data:image/svg+xml,${encodeURIComponent(`
       <svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
